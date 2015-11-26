@@ -54,7 +54,7 @@ task gitclone () {
       workingDir = pullLocation 
       println 'in pull location'
       commandLine 'git','pull'
-      println '--------------- pulled----------------------------'
+      println '--------------- pulled---------------------'
     }
   }
 }
