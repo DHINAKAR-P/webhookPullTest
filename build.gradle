@@ -46,7 +46,7 @@ task gitclone () {
     exec{
     dir.mkdirs()
     println 'dir created'
-    println '++++++++++++++++++++++++++++++++++++++++++++++++++++++gonna clone++++++++++++++++++++++++++++++'
+    println '+++++++++++++++++++++++++++++++++gonna clone++++++++++++++++++++++++++++++'
     commandLine 'git','clone', repoUrl
     }      
   }else {
